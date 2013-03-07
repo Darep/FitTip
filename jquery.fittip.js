@@ -1,5 +1,5 @@
-// jQuery Tipping Point v0.2
-// Licensed under MIT. Copyright (c) 2012 Solita
+// FitTip v0.2 (jQuery tooltip plugin)
+// Licensed under MIT. Copyright (c) 2012-2013 Solita
 
 (function ($, window, document, undefined) {
 
@@ -83,5 +83,6 @@ $.fn.tp = function (options_in) {
     });
 };
 
+$.fn.fittip = $.fn.tp;
 
 })(jQuery, window, document);
